@@ -95,6 +95,9 @@ left: 230px;
 .img-1 svg{
     width: 300px;
     margin: 120px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .box-panel{
