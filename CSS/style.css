@@ -29,16 +29,21 @@ header{
 }
 
 
-.hero-text h2{
+.hero-text h3{
     position: relative;
     padding-top: 120px;
     font-family: 'Poppins', sans-serif;
-    font-size: 3rem;
+    font-size: 2.3rem;
     font-weight: 900;
-    line-height: 3.5rem;
+    line-height: 3rem;
     /* letter-spacing: 0.03rem; */
     padding-left: 0px;
     color: #272D4E;
+}
+
+.hero-text h3 span{
+    color: #3B57F1;
+
 }
 .hero-text p{
     font-size: 10px;
