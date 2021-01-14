@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 65vh;
+    background: linear-gradient(180deg, #C2E2FF 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);
+    padding: 6rem;
+
+}
+
+
+.logo svg{
+  width: 5rem;
+}
+
+.logo-text{
+    padding:2rem 1rem;
+    font-weight: 900;
+    color: #38497C;;
+}
+
+
+.hero-text h2{
+    position: relative;
+    padding-top: 120px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 3.5rem;
+    /* letter-spacing: 0.03rem; */
+    padding-left: 0px;
+    color: #272D4E;
+}
+.hero-text p{
+    font-size: 10px;
+    padding-top: 20px;
+}
+
+.hero-text svg{
+    width:65px ;
+    height:65px;
+}
+
+/* .hero-form{
+    padding:50px 0 ;
+} */
+
+.hero-form form input,
+.hero-form form textarea
+{
+    border: none;
+    padding: 8px 20px ;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: #272D4E;
+    filter:drop-shadow(1px 1px 12px #e7e7e7)
+}
+
+
+.hero-form form input::placeholder{
+    font-size: 0.8rem;
+}
+
+form .btn{
+position: relative;
+left: 230px;
+
+}
+.img{
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-1 img{
+    padding-top: 50px;
+     width: 100%;
+
+}
+.img-1 svg{
+    width: 300px;
+    margin: 120px auto;
+}
+
+.box-panel{
+    margin:100px auto;
+    background: url(../Img/bg.svg) no-repeat;
+}
+.card-1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+    margin: 50px auto ;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 31px -12px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    
+
+}
+
+.card-1 svg{
+    margin: 20px 80px;
+    width: 100px;
+}
+
+.card-1 h4{
+    margin-top: 20px;
+    font-weight: 900;
+}
+.card-1 p{
+    font-size: 12px;
+}
+
+.card-spl svg{
+    width: 200px !important; 
+    margin: 20px 20px !important;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+}
+
+.footer .sm-icons{
+    display: inline;
+    margin: 10px 20px;
+    width: 30px;
+}
+.footer h4{
+font-weight: 900;
+}
