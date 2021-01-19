@@ -11,19 +11,22 @@ body{
 
 header{
     width: 100%;
-    height: 65vh;
+    height: 70vh;
     background: linear-gradient(180deg, #C2E2FF 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);
     padding: 6rem;
 
 }
 
-
+iframe{
+    margin: 30px 0;
+}
 .logo svg{
   width: 5rem;
+  margin-top: 50px;
 }
 
 .logo-text{
-    padding:2rem 1rem;
+    padding:5rem 1rem;
     font-weight: 900;
     color: #38497C;;
 }
@@ -31,7 +34,7 @@ header{
 
 .hero-text h3{
     position: relative;
-    padding-top: 120px;
+    padding-top: 40px;
     font-family: 'Poppins', sans-serif;
     font-size: 2.3rem;
     font-weight: 900;
@@ -47,7 +50,7 @@ header{
 }
 .hero-text p{
     font-size: 10px;
-    padding-top: 20px;
+    padding-top: 0px;
 }
 
 .hero-text svg{
@@ -144,9 +147,14 @@ left: 230px;
 
 .footer .sm-icons{
     display: inline;
-    margin: 10px 20px;
-    width: 30px;
+    margin: 10px 15px;
+    font-size: 20px;
 }
 .footer h4{
 font-weight: 900;
+}
+
+/* Partners Logos */
+.slide img{
+    width: 150px;
 }
